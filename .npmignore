@@ -32,4 +32,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # 不需要发布的字体文件（已有专用font/目录）
-MingCute.*
+ZxeiCnReact.*
