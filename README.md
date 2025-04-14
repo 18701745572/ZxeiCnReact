@@ -1,7 +1,7 @@
 [![image](./ZxeiCnReact_cover.png "ZxeiCnReact Icon")](https://www.zxeicnreact.com/)
-[![npm](https://img.shields.io/npm/v/ZxeiCnReact.svg?labelColor=4A4A4A&color=007AFF&style=shield)](https://www.npmjs.com/package/ZxeiCnReact)
+[![npm](https://img.shields.io/npm/v/zxeicn-react-icons.svg?labelColor=4A4A4A&color=007AFF&style=shield)](https://www.npmjs.com/package/zxeicn-react-icons)
 [![stars](https://img.shields.io/github/stars/ZxeiCnReact/ZxeiCnReact.svg?labelColor=4A4A4A&color=FE7D37&style=shield)](https://github.com/ZxeiCnReact/ZxeiCnReact/stargazers)
-[![downloads](https://img.shields.io/npm/dt/ZxeiCnReact.svg?labelColor=4A4A4A&color=23AF5F&style=shield)](https://www.npmjs.com/package/ZxeiCnReact)
+[![downloads](https://img.shields.io/npm/dt/zxeicn-react-icons.svg?labelColor=4A4A4A&color=23AF5F&style=shield)](https://www.npmjs.com/package/zxeicn-react-icons)
 [![twitter](https://img.shields.io/twitter/follow/ZxeiCnReact.svg?label=ZxeiCnReact&style=social)](https://twitter.com/ZxeiCnReact)
 
 # ZxeiCnReact Icon
@@ -18,14 +18,14 @@ Head on to the website of [ZxeiCnReact](https://www.zxeicnreact.com/). Click the
 Install npm package:
 
 ```shell
-npm install ZxeiCnReact --save
+npm install zxeicn-react-icons --save
 ```
 
 Import CSS styles into the project entry file:
 
 ```js
 // main.js
-import 'ZxeiCnReact/font/ZxeiCnReact.css'
+import 'zxeicn-react-icons/font/ZxeiCnReact.css'
 ```
 
 Overwrite the initial color of the icon in the global style file:
@@ -44,19 +44,19 @@ For React projects, you can use our dedicated React component library:
 
 ```shell
 # Using npm
-npm install ZxeiCnReact
+npm install zxeicn-react-icons
 
 # Using yarn
-yarn add ZxeiCnReact
+yarn add zxeicn-react-icons
 
 # Using pnpm
-pnpm add ZxeiCnReact
+pnpm add zxeicn-react-icons
 ```
 
 ### Basic Usage
 
 ```jsx
-import { AddCircleFill, AddCircleLine } from 'ZxeiCnReact';
+import { AddCircleFill, AddCircleLine } from 'zxeicn-react-icons';
 
 const App = () => {
   return (
@@ -73,7 +73,7 @@ const App = () => {
 For better tree-shaking, import from subpaths:
 
 ```jsx
-import { AddCircleFill } from 'ZxeiCnReact/react';
+import { AddCircleFill } from 'zxeicn-react-icons/react';
 ```
 
 For more detailed usage examples and available props, please check [README-zh.md](./README-zh.md).

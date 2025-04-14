@@ -15,13 +15,13 @@
 
 ```bash
 # 使用 npm
-npm install ZxeiCnReact
+npm install zxeicn-react-icons
 
 # 使用 yarn
-yarn add ZxeiCnReact
+yarn add zxeicn-react-icons
 
 # 使用 pnpm
-pnpm add ZxeiCnReact
+pnpm add zxeicn-react-icons
 ```
 
 ## 使用方法
@@ -29,7 +29,7 @@ pnpm add ZxeiCnReact
 ### 基本用法
 
 ```jsx
-import { AddCircleFill, AddCircleLine } from 'ZxeiCnReact';
+import { AddCircleFill, AddCircleLine } from 'zxeicn-react-icons';
 
 const App = () => {
   return (
@@ -46,7 +46,7 @@ const App = () => {
 为了优化打包体积，推荐使用子路径导入：
 
 ```jsx
-import { AddCircleFill } from 'ZxeiCnReact/react';
+import { AddCircleFill } from 'zxeicn-react-icons/react';
 ```
 
 ### 动态导入
@@ -55,7 +55,7 @@ import { AddCircleFill } from 'ZxeiCnReact/react';
 
 ```jsx
 import React, { useState, useEffect } from 'react';
-import * as Icons from 'ZxeiCnReact/react';
+import * as Icons from 'zxeicn-react-icons/react';
 
 const DynamicIcon = ({ name, ...props }) => {
   const IconComponent = Icons[name];
@@ -79,7 +79,7 @@ import dynamic from 'next/dynamic';
 
 // 动态导入图标组件以避免SSR问题
 const AddCircleFill = dynamic(
-  () => import('ZxeiCnReact/react').then((mod) => mod.AddCircleFill),
+  () => import('zxeicn-react-icons/react').then((mod) => mod.AddCircleFill),
   { ssr: false }
 );
 
@@ -96,7 +96,7 @@ const MyPage = () => {
 
 ```jsx
 import styled from 'styled-components';
-import { HeartFill } from 'ZxeiCnReact/react';
+import { HeartFill } from 'zxeicn-react-icons/react';
 
 // 创建自定义样式的图标
 const StyledHeartIcon = styled(HeartFill)`
