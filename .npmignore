@@ -1,0 +1,35 @@
+# 源代码相关
+src/
+scripts/
+svg/
+
+# 开发和测试相关
+examples/
+test/
+.history/
+.vscode/
+.idea/
+
+# 配置文件
+.gitignore
+tsconfig.json
+rollup.config.js
+
+# 文档和图片（除必要的README和LICENSE）
+DEVELOPMENT.md
+update/
+*.png
+!ZxeiCnReact_icon.png
+
+# 系统文件
+.DS_Store
+**/.DS_Store
+
+# 依赖和构建产物
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 不需要发布的字体文件（已有专用font/目录）
+MingCute.*
